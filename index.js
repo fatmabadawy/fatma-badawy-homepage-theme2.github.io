@@ -37,5 +37,5 @@ function theme1() {
       window.location.href="http://127.0.0.1:5500/IT_project/index.html";
 }
 function theme2() {
-    window.location.href="http://127.0.0.1:5500/theme2/home3.html";
+    window.location.href="https://github.com/fatmabadawy/fatma-badawy-homepage-theme2.github.io/blob/main/home3.html";
 }
