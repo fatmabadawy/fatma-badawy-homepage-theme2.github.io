@@ -18,7 +18,7 @@ function hide() {
     sidebar.style.display = 'none'; 
 }
 function signup() {
-    window.location.href="";
+    window.location.href="./form2.html";
 }
 function home() {
     window.location.href="./index.html";
