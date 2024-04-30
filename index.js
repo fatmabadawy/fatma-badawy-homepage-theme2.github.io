@@ -17,15 +17,14 @@ function hide() {
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'; 
 }
-
 function signup() {
     window.location.href="./form.html";
 }
 function home() {
-    window.location.href="";
+    window.location.href="./index.html";
 }
 function login() {
-    window.location.href="file:///C:/Users/ms318/OneDrive/Desktop/project%201/login.html";
+    window.location.href="";
 }
 function complains() {
     window.location.href="";
@@ -38,6 +37,21 @@ function theme1() {
 }
 function theme2() {
   window.location.href="./index.html";
+}
+function signup2() {
+    window.location.href="";
+}
+function home2() {
+    window.location.href="./home3.html";
+}
+function login2() {
+    window.location.href="";
+}
+function complains2() {
+    window.location.href="";
+} 
+function feedback2() {
+    window.location.href="./feedbacktheme2.html";
 }
 
 
