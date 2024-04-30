@@ -45,14 +45,17 @@ nav ul li a {
 }
 .logo :hover{
     color: #ffb7d2;
+     cursor: pointer;
 }
 nav a:hover {
     color: #699bb9;
     transition: 0s;
     border-radius: 10px;
+     cursor: pointer;
 }
 .login :hover {
     color: #ffb7d2;
+     cursor: pointer;
 }
 .sidebar{
     position: fixed;
