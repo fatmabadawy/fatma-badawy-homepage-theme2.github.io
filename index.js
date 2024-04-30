@@ -18,7 +18,7 @@ function hide() {
     sidebar.style.display = 'none'; 
 }
 function signup() {
-    window.location.href="./form.html";
+    window.location.href="";
 }
 function home() {
     window.location.href="./index.html";
@@ -30,7 +30,7 @@ function complains() {
     window.location.href="";
 } 
 function feedback() {
-    window.location.href="./feedbacktheme1.html";
+    window.location.href="./feedback theme1.html";
 }
 function theme1() {
     window.location.href="./home3.html";
@@ -39,7 +39,7 @@ function theme2() {
   window.location.href="./index.html";
 }
 function signup2() {
-    window.location.href="";
+    window.location.href="./form.html";
 }
 function home2() {
     window.location.href="./home3.html";
@@ -51,7 +51,7 @@ function complains2() {
     window.location.href="";
 } 
 function feedback2() {
-    window.location.href="./feedbacktheme2.html";
+    window.location.href="./feedback theme2.html";
 }
 
 
