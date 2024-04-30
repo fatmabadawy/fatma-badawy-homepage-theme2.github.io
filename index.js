@@ -24,7 +24,7 @@ function home() {
     window.location.href="./index.html";
 }
 function login() {
-    window.location.href="./login theme 1./login 1.html";
+    window.location.href="./login 1.html";
 }
 function complains() {
     window.location.href="";
@@ -45,7 +45,7 @@ function home2() {
     window.location.href="./home3.html";
 }
 function login2() {
-    window.location.href="./login theme 2./login 2.html";
+    window.location.href="./login 2.html";
 }
 function complains2() {
     window.location.href="";
