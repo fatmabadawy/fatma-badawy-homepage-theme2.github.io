@@ -1,128 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>tswaq.com </title>
-    <link rel="stylesheet" href="./home2.css" > 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leon template onet</title>
+    <link rel="stylesheet" href="css/leon.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
 
 </head>
-<body class="bod" >
-  <header class="header" >
-    <a href="#" onclick="show()" class="fas fa-bars"></a>
-      <div class="logo" onclick="home()"><a>tswaq</a></div>
-      <nav>
-        <ul>
-          <li><a onclick="home()">Home</a></li>
-          <li><a onclick="feedback()">Feedback</a></li>
-          <li><a onclick="complains()">Complains</a></li>
-          <li class="login"><a onclick="login()">log in</a></li>
-          <li class="signup"><a onclick="signup()">sign up</a></li>
-          <li class="theme2"><a href="./home3.html"><i onclick="theme2()" class="fas fa-cog"></i></a></li>
-        </ul>
-      <ul  class="sidebar">
-          <li onclick="hide()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href='#' onclick="home()">Home</a></li>
-            <li><a href='#' onclick="feedback()">Feedback</a></li>
-            <li><a href='#'>Complains</a></li>
-            <li ><a href='#'>log in</a></li>
-            <li ><a href='#' onclick="signup()">sign up</a></li>
-        </ul>
-    </nav> 
-    
-  </header>
-  <div class="top">
-      <nav class="text">
-          <p class="one">online</p>
-          <p class="two">shopping</p>
-          <p class="three">find what you want</p>
-        </nav>
+
+<body>
+    <div class="container">
+        <header> <i class="fas fa-bars" onclick="show()"></i>
+            <div class="logo"><a href='#' onclick="home()">tswaq</a></div>
+            <nav class="link">
+                <ul>
+                    <li><a href='#' onclick="home()">Home</a></li>
+                    <li><a href='#' onclick="feedback()">Feedback</a></li>
+                    <li><a href='#' onclick="complains()">Complains</a></li>
+                    <li class="login"><a href='#' onclick="login()">log in</a></li>
+                    <li class="signup"><a href='#' onclick="signup()">sign up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="filter-section" id="filterSection">
+            <input type="number" id="maxPrice" placeholder="Maximum price">
+            <label for="showOnSale"><input type="checkbox" id="showOnSale"> Show On Sale</label>
+            <label for="showHotOffer"><input type="checkbox" id="showHotOffer"> Show Hot Offer</label>
+            <button onclick="filterProducts()">Filter</button>
         </div>
-        <div class="search">
-          <input type="text" id="input-box" placeholder="search">
-          <button type="submit" onclick="goButton()">Go</button>
-          <div class="result-box"></div>
-        </div>
-        
-        
-    <div class="category">
-    <div class="centre">
-      <p>sections</p>
-      <div class="sections">
+
         <div class="section">
-          <img  src="./image/clothes-hanger_2357127.png">
-          <h3><a href="">clothes section</a></h3>
+            <div class="parent">
+
+
+                <div class="landing">
+
+
+                </div>
+            </div>
+
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="one">
+                                <a href="./mohamed11.html" target="_blank"> <img
+                                        src="./image/جهاز-شفط-الصديد-من-الجروح-400x400.webp"
+                                        style="object-position: center;"></a>
+                                <div class="mohamed">
+                                    <P>
+                                        جهاز شفط الجروح
+
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                        </td>
+                        <td>
+                            <div class="two">
+
+                                <a href="./mohamed2.html" target="_blank"> <img
+                                        src="./image/جهاز-تسكين-الآلام-pca-400x400.webp"></a>
+                                <div class="mohamed">
+                                    <p>
+                                        جهاز تسكين الآلام
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                        </td>
+                        <td>
+                            <div class="Three">
+
+
+                                <a href="./mohamed12.html" target="_blank"> <img
+                                        src="./image/183ed865-5e4f-4bfc-b9d7-fa0831408ad4-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>جهاز رسم القلب
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="four">
+
+                                <a href="./mohamed1.html" target="_blank"> <img
+                                        src="./image/WhatsApp-Image-2021-11-23-at-7.05.02-PM-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>
+                                        مونيتور
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                        </td>
+                        <td>
+                            <div class="five">
+
+                                <a href="./mohamed3.html" target="_blank"> <img
+                                        src="./image/جهاز-اعادة-تدريب-اليد-1-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>جهاز اعادة تدريب اليد
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                        </td>
+
+
+
+
+                        <td>
+                            <div class="six">
+
+                                <a href="./mohamed4.HTML" target="_blank"> <img
+                                        src="./image/ترولي-مستشفيات-طبي-Trolley-medical-hospitals-2-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>ترولى طوارىء
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="siven">
+
+                                <a href="./mohamed5.html" target="_blank"> <img
+                                        src="./image/شنطة-اسعافات-اوليه-400x400.webp"></a>
+                                <div class="mohamed">
+                                    <P>شنطة اسعافات أولية
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                        </td>
+                        <td>
+                            <div class="eight">
+
+                                <a href="./mohamed6.html" target="_blank"> <img
+                                        src="./image/سعر-المنظار-الحنجري-laryngoscope-fiber-martin-germany-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>
+                                        منظار حنجري فايبر اوبتك
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                        </td>
+                        <td>
+                            <div class="twelve">
+
+                                <a href="./mohamed7.html" target="_blank"> <img
+                                        src="./image/جهاز-بيباب-bipap-ventmed-2-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>
+                                        جهاز بيباب
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+
+
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="thirteen">
+
+                                <a href="./mohamed8.html" target="_blank"> <img
+                                        src="./image/oxygen-mask-1-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>
+                                        ماسك اكسجين
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="fourteen">
+
+                                <a href="./mohamed9.html" target="_blank"> <img
+                                        src="./image/اكسجين-5لتر-جرانزيا2-1-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>
+                                        مولد اكسجين جرانزيا
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="fiveteen">
+
+                                <a href="./mohamed10.html" target="_blank"> <img
+                                        src="./image/جهاز-ضغط-ديجيتال-روزماكس-Rossmax-Digital-Blood-Pressure-ch155f-2-400x400.webp"></a>
+
+                                <div class="mohamed">
+                                    <P>
+                                        جهاز ضغط ديجيتال روزماكس
+                                        <br>
+                                    <p> <span class="more">
+                                            to more specifics click on photo
+                                        </span>
+                                    </p>
+                                    </P>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+
+
+                    </tr>
+                </tbody>
+            </table>
+
 
         </div>
-          <div class="section">
-            <img src="./image/responsive_2777213.png">
-            <h3><a href="">electronics section</a></h3>
 
-          </div>
-          <div class="section">
-            <img src="./image/shoes_11486665.png">
-            <h3><a href="">shoes section</a></h3>
-
-          </div><div class="section">
-            <img  src="./image/skincare_2763410.png">
-            <h3><a href="">skin care section</a></h3>
-        </div>
-         <div class="section">
-            <img  src="./image/shopping-bag_3514242.png">
-            <h3><a href="">supermarket section</a></h3>
-        </div>
-        <div class="section">
-            <img  src="./image/washing-machine_3003984.png">
-            <h3><a href="">electricity section</a></h3>
-        </div>
-        <div class="section">
-          <img  src="./image/shopping-bag_2982727.png">
-          <h3><a href="">Bags section</a></h3>
-      </div>
-      <div class="section">
-        <img  src="./image/ecg-monitor_6552284.png">
-        <h3><a href="">medical devices section</a></h3>
+        <footer>
+            <div class="foote">
+                <div class="end">
+                    <p>&copy; All right reserved</p>
+                </div>
+                <div class="ppp">
+                    <div class="icons3">
+                        <div class="section3"> <img
+                                src="https://cdn-icons-png.freepik.com/256/1384/1384005.png?uid=R147053540&ga=GA1.1.1433374502.1714427460">
+                            <p><a href="#">tswaq.facebook.com</a></p>
+                        </div>
+                        <div class="section3"> <img
+                                src="https://cdn-icons-png.freepik.com/256/6422/6422200.png?uid=R147053540&ga=GA1.1.1433374502.1714427460&semt=sph">
+                            <p><a href="#">tswaq.intagram.com</a></p>
+                        </div>
+                        <div class="section3"> <img
+                                src="https://cdn-icons-png.freepik.com/256/1384/1384007.png?uid=R147053540&ga=GA1.1.1433374502.1714427460">
+                            <p><a href="#">tswaq.whatsapp.com</a></p>
+                        </div>
+                    </div>
+                    <div class="icons4">
+                        <div class="section4"> <img
+                                src="https://cdn-icons-png.freepik.com/256/3059/3059561.png?uid=R147053540&ga=GA1.1.1433374502.1714427460&semt=ais_hybrid">
+                            <p>01265478591</p>
+                        </div>
+                        <div class="section4"><img
+                                src="https://cdn-icons-png.freepik.com/256/3059/3059561.png?uid=R147053540&ga=GA1.1.1433374502.1714427460&semt=ais_hybrid">
+                            <p>01239547864</p>
+                        </div>
+                        <div class="section4"> <img
+                                src="https://cdn-icons-png.freepik.com/256/13/13936.png?uid=R147053540&ga=GA1.1.1433374502.1714427460&semt=ais_hybrid">
+                            <p>0236578864</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-      </div>
-  </div>
-</div>
-<footer >
-    <div class="foote">
-    <div class="end">
-        <p>&copy; All right reserved</p>
-    </div>
-    <div class="ppp">
-    <div class="icons3">
-    <div class="section3">
-      <img src="./image/facebook_2168281.png">
-      <p><a href="#">tswaq.facebook.com</a></p>
-    </div>
-  <div class="section3">
-    <img src="./image/instagram_717392.png">
-    <p><a href="#">tswaq.intagram.com</a></p>
-  </div> 
-  <div class="section3">
-    <img src="./image/whatsapp_1384007.png">
-    <p><a href="#">tswaq.whatsapp.com</a></p>
-  </div>
-</div>
-  <div class="icons4">
-    <div class="section4">
-      <img src="./image/telephone-call_3059502.png">
-      <p>01265478591</p>
-    </div>
-    <div class="section4">
-      <img src="./image/telephone-call_3059502.png">
-      <p>01239547864</p>
-    </div>
-    <div class="section4">
-      <img src="./image/old-typical-phone_13936.png">
-      <p>0236578864</p>
-    </div>
-  </div>
-    </div>
-    </div>
-</footer>
-<script src="index.js"></script>
 </body>
+
 </html>
