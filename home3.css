@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     font-family: "Ubuntu", sans-serif;
     padding: 0;
@@ -253,7 +253,7 @@ margin-left: -20px;
 }
 .theme2 i{
     font-size: 30px;
-    margin-left: 170px;
+    margin-left: 180px;
 }
 .section img:hover{
     transform: scale( 1.1 , 1.1 );
