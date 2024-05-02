@@ -24,7 +24,7 @@ header {
     font-weight:bold;
     text-transform: capitalize;
     margin-left: 55PX;
-    margin-right: 580PX;
+    margin-right: 550PX;
     
 }
 /*list part*/
@@ -79,6 +79,13 @@ background-color:#65cfe7 ;
 .theme2 i{
     font-size: 30px;
     margin-left: 200px;
+}
+.fas  {
+    color: #d86d95;
+    font-size: 40px;
+}
+.fas:hover{
+    color: white;
 }
 .name{
     font-size: 40px;
