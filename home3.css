@@ -95,6 +95,9 @@ nav a:hover {
     color: #699bb9;
     font-size: 40px;
 }
+.fas:hover{
+    color: white;
+}
 .login{
     position: absolute;
     background-color:#699bb9;
@@ -250,7 +253,7 @@ margin-left: -20px;
 }
 .theme2 i{
     font-size: 30px;
-    margin-left: 190px;
+    margin-left: 170px;
 }
 .section img:hover{
     transform: scale( 1.1 , 1.1 );
