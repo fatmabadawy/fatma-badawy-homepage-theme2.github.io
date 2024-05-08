@@ -64,6 +64,7 @@ let availableKeywords = [
     'electricity',
     'medical devices',
     'bags',
+    'video games',
   ];
 
   const resultBox = document.querySelector(".result-box");
