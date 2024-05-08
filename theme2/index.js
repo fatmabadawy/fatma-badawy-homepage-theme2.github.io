@@ -100,7 +100,7 @@ function goButton() {
     }
     else if (search.includes('super market'))
     {
-      window.location.href = "theme2/sm.html";
+      window.location.href = "sm.html";
     }
     else if (search.includes('bags'))
     {
