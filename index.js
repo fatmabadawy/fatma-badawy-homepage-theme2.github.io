@@ -21,7 +21,7 @@ function signup() {
   window.location.href="./form2.html";
 }
 function home() {
-  window.location.href="./index.html";
+  window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/index.html";
 }
 function login() {
   window.location.href="./login 1.html";
