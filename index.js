@@ -63,6 +63,7 @@ let availablekeywords1 = [
   'electricity',
   'medical devices',
   'books',
+  'video games',
 ];
 const resultbox=document.querySelector(".result-box");
 const inputbox=document.getElementById("input-box");
@@ -98,7 +99,7 @@ function goButton() {
     let search = inputbox.value.toLowerCase();
     if (search.includes('clothes'))
     {
-      window.location.href = "";
+      window.location.href = "clothes%20part/men%20part%20theme1.html";
     } 
     else if (search.includes('skin care'))
     {
@@ -106,27 +107,31 @@ function goButton() {
     }
     else if (search.includes('shoes'))
     {
-      window.location.href = "";
+      window.location.href = "shoes_page.FM/index.html";
     }
     else if (search.includes('medical'))
     {
-      window.location.href = "";
+      window.location.href = "https://fatmabadawy.github.io/mohamedabdall.github.io/";
     }
     else if (search.includes('super market'))
     {
-      window.location.href = "";
+      window.location.href = "./sm.html";
     }
     else if (search.includes('bags'))
     {
-      window.location.href = "";
+      window.location.href = "https://fatmabadawy.github.io/mazen.github.io/";
     }
     else if (search.includes('electronics'))
     {
-      window.location.href = "";
+      window.location.href = "https://fatmabadawy.github.io/Aliaamohamed-theme1.github.io/";
     }
     else if (search.includes('electricity'))
     {
-      window.location.href = "";
+      window.location.href = "https://fatmabadawy.github.io/minaayman2.github.io/product1.html";
+    }
+    else if (search.includes('video games'))
+    {
+      window.location.href = "video_games_page.FM/index.html";
     }
     
   };
