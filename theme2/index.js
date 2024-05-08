@@ -114,5 +114,8 @@ function goButton() {
     {
       window.location.href = "https://fatmabadawy.github.io/minaayman56.github.io";
     }
-    
+      else if (search.includes('video games'))
+    {
+      window.location.href = "video_games_page.FM/index.html";
+    }
   };
