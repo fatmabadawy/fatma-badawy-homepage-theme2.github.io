@@ -19,19 +19,19 @@ function hide() {
 }
 
 function signup() {
-    window.location.href="http://127.0.0.1:5500/theme2/form.html";
+    window.location.href="form2.html";
 }
 function home() {
     window.location.href="http://127.0.0.1:5500/theme2/home3.html";
 }
 function login() {
-    window.location.href="file:///C:/Users/ms318/OneDrive/Desktop/project%201/login.html";
+    window.location.href="fatma%20ayman%20theme%202/login%202.htmll";
 }
 function complains() {
-    window.location.href="";
+    window.location.href="table/form.html";
 }
 function feedback() {
-    window.location.href="file:///C:/html/men%20parts%20theme2/feedback%20theme2.html";
+    window.location.href="feedback%20theme2.html";
 }
 function theme1() {
       window.location.href="http://127.0.0.1:5500/IT_project/index.html";
