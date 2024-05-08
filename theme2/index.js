@@ -34,7 +34,7 @@ function feedback() {
     window.location.href="feedback%20theme2.html";
 }
 function theme1() {
-      window.location.href="http://127.0.0.1:5500/IT_project/index.html";
+      window.location.href="./index.html";
 }
 function theme2() {
     window.location.href="http://127.0.0.1:5500/theme2/home3.html";
