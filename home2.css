@@ -108,7 +108,7 @@ background-color:#65cfe7 ;
 }
 .theme2 i{
     font-size: 30px;
-    margin-left: 210px;
+    margin-left: 190px;
 }
 .section img:hover{
     transform: scale( 1.1 , 1.1 );
@@ -207,6 +207,29 @@ margin-left: -20px;
     margin-bottom: 30px;
     text-transform: capitalize;
     color: white;
+}
+.games{
+     margin:80px 312px 0px;
+}
+.games img {
+
+    height :250px;
+    margin-bottom: 20px;
+}
+.games h3 a{
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: white;
+}
+.games h3 a:hover{
+    color:#E987CC;
+    cursor: pointer;
+}
+.games img:hover{
+    transform: scale( 1.1 , 1.1 );
+    transition: .4s;
+    cursor: pointer;
 }
 
 .text {

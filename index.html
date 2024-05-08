@@ -5,8 +5,9 @@
     <title>tswaq.com </title>
     <link rel="stylesheet" href="./home2.css" > 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-
+    <script src="index.js"></script>
 </head>
+
 <body class="bod" >
   <header class="header" >
     <a href="#" onclick="show()" class="fas fa-bars"></a>
@@ -18,15 +19,15 @@
           <li><a onclick="complains()">Complains</a></li>
           <li class="login"><a onclick="login()">log in</a></li>
           <li class="signup"><a onclick="signup()">sign up</a></li>
-          <li class="theme2"><a href="./home3.html"  class="theme2()"><i class="fas fa-cog"></i></a></li>
+          <li class="theme2"><a onclick="theme2()"><i class="fas fa-cog"></i></a></li>
         </ul>
       <ul  class="sidebar">
           <li onclick="hide()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href='#' onclick="home()">Home</a></li>
-            <li><a href='#' onclick="feedback()">Feedback</a></li>
-            <li><a href='#'>Complains</a></li>
-            <li ><a href='#'>log in</a></li>
-            <li ><a href='#' onclick="signup()">sign up</a></li>
+            <li><a href='./index.html'>Home</a></li>
+            <li><a href=''>Feedback</a></li>
+            <li><a href=''>Complains</a></li>
+            <li ><a href=''>log in</a></li>
+            <li ><a href='./form.html'>sign up</a></li>
         </ul>
     </nav> 
     
@@ -43,8 +44,7 @@
           <button type="submit" onclick="goButton()">Go</button>
           <div class="result-box"></div>
         </div>
-        
-        
+
     <div class="category">
     <div class="centre">
       <p>sections</p>
@@ -81,10 +81,14 @@
       </div>
       <div class="section">
         <img  src="./image/ecg-monitor_6552284.png">
-        <h3><a href="">medical devices section</a></h3>
+        <h3><a href="">medica devices section</a></h3>
     </div>
       </div>
-  </div>
+      <div class="games">
+        <img class="im" src="./image/video-console_14667137.png">
+            <h3><a href="">video games section</a></h3>
+      </div>
+      </div>
 </div>
 <footer >
     <div class="foote">
@@ -123,6 +127,5 @@
     </div>
     </div>
 </footer>
-<script src="index.js"></script>
 </body>
 </html>
