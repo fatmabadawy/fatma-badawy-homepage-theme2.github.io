@@ -37,5 +37,81 @@ function theme1() {
       window.location.href="./index.html";
 }
 function theme2() {
-    window.location.href="http://127.0.0.1:5500/theme2/home3.html";
+    window.location.href="./home3.html";
 }
+let availablekeywords1 = [
+  'clothes',
+  'shoes',
+  'skin care',
+  'supermarket',
+  'electronics devices',
+  'electricity',
+  'medical devices',
+  'books',
+];
+const resultbox=document.querySelector(".result-box");
+const inputbox=document.getElementById("input-box");
+
+inputbox.onkeyup = function()
+{
+  let result=[];
+  let input=inputbox.value;
+  if(input.length){
+      result=availablekeywords1.filter((keyword)=>{
+          return   keyword.toLowerCase().includes(input.toLowerCase());
+      });
+      console.log(result);
+  }
+ display(result);
+  if(!result.length)
+  {
+      resultbox.innerHTML='';
+  }
+}
+function display(result){
+  const content = result.map((list)=>{
+      return "<li onclick=selectinput(this)>"+list+"</li>";
+  });
+  resultbox.innerHTML="<ul>"+ content.join('') +"</ul>";
+}
+
+function selectinput(list){
+  inputbox.value=list.innerHTML;
+  resultbox.innerHTML='';
+}
+function goButton() {
+    let search = inputbox.value.toLowerCase();
+    if (search.includes('clothes'))
+    {
+      window.location.href = "";
+    } 
+    else if (search.includes('skin care'))
+    {
+      window.location.href = "fatma%20ayman%20theme%201/fatma%20ayman%20.html";
+    }
+    else if (search.includes('shoes'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('medical'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('super market'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('bags'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('electronics'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('electricity'))
+    {
+      window.location.href = "";
+    }
+    
+  };
