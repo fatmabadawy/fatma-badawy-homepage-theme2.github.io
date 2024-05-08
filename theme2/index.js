@@ -25,7 +25,7 @@ function home() {
     window.location.href="http://127.0.0.1:5500/theme2/home3.html";
 }
 function login() {
-    window.location.href="fatma%20ayman%20theme%202/login%202.htmll";
+    window.location.href="fatma%20ayman%20theme%202/login%202.html";
 }
 function complains() {
     window.location.href="table/form.html";
