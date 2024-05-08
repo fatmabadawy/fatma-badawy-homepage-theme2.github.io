@@ -33,10 +33,10 @@ function feedback() {
     window.location.href="./feedback theme1.html";
 }
 function theme1() {
-    window.location.href="home3.html";
+    window.location.href="./index.html";
 }
 function theme2() {
-  window.location.href="index.html";
+  window.location.href="./home3.html";
 }
 function signup2() {
     window.location.href="./form.html";
