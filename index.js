@@ -105,7 +105,7 @@ let availableKeywords = [
     } 
     else if (search.includes('skin care'))
     {
-      window.location.href = "";
+      window.location.href = "fatma%20ayman%20theme%201/fatma%20ayman%20.html";
     }
     else if (search.includes('shoes'))
     {
