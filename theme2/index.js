@@ -19,19 +19,19 @@ function hide() {
 }
 
 function signup() {
-    window.location.href="form.html";
+    window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/form.html";
 }
 function home() {
-    window.location.href="http://127.0.0.1:5500/theme2/home3.html";
+    window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/home3.html";
 }
 function login() {
-    window.location.href="fatma%20ayman%20theme%202/login%202.html";
+    window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/fatma%20ayman%20theme%202/login%202.html";
 }
 function complains() {
-    window.location.href="table/form.html";
+    window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/table/form.html";
 }
 function feedback() {
-    window.location.href="feedback%20theme2.html";
+    window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/feedback%20theme2.html";
 }
 function theme1() {
       window.location.href="./index.html";
@@ -48,6 +48,7 @@ let availablekeywords1 = [
   'electricity',
   'medical devices',
   'books',
+  'video games',
 ];
 const resultbox=document.querySelector(".result-box");
 const inputbox=document.getElementById("input-box");
@@ -87,7 +88,7 @@ function goButton() {
     } 
     else if (search.includes('skin care'))
     {
-      window.location.href = "fatma%20ayman%20theme%201/fatma%20ayman%20.html";
+      window.location.href = "fatma%20ayman%20theme%202/fatma%20ayman%20.html";
     }
     else if (search.includes('shoes'))
     {
