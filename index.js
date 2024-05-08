@@ -95,7 +95,7 @@ function selectinput(list){
   resultbox.innerHTML='';
 }
 function goButton() {
-    let search = inputBox.value.toLowerCase();
+    let search = inputbox.value.toLowerCase();
     if (search.includes('clothes'))
     {
       window.location.href = "";
