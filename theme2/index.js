@@ -84,7 +84,7 @@ function goButton() {
     let search = inputbox.value.toLowerCase();
     if (search.includes('clothes'))
     {
-      window.location.href = "";
+      window.location.href = "men%20parts%20theme2/men%20parts%20theme2.html";
     } 
     else if (search.includes('skin care'))
     {
@@ -92,27 +92,27 @@ function goButton() {
     }
     else if (search.includes('shoes'))
     {
-      window.location.href = "";
+      window.location.href = "shoes_page.FM/index.html";
     }
     else if (search.includes('medical'))
     {
-      window.location.href = "";
+      window.location.href = "https://fatmabadawy.github.io/mohamedabdall.github.io/";
     }
     else if (search.includes('super market'))
     {
-      window.location.href = "";
+      window.location.href = "theme2/sm.html";
     }
     else if (search.includes('bags'))
     {
-      window.location.href = "";
+      window.location.href = "mazz.html";
     }
     else if (search.includes('electronics'))
     {
-      window.location.href = "";
+      window.location.href = "https://fatmabadawy.github.io/Aliaamohamed-theme2.github.io/";
     }
     else if (search.includes('electricity'))
     {
-      window.location.href = "";
+      window.location.href = "https://fatmabadawy.github.io/minaayman56.github.io";
     }
     
   };
