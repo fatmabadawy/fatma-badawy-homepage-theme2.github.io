@@ -147,19 +147,16 @@ header {
     text-decoration: none;
     
 }
-.bod .logo a{
-    color: white;
-   
-    font-size: 50px;
-    font-weight:bold;
-    text-transform: capitalize;
-    margin-left: 50PX;
-    margin-right: 700PX;
-    text-decoration: none;
-    
+.bu:hover{
+    transform: scale(1.2);
+    background-color: white;
 }
 
-
+.bu2:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color:rgb(107, 105, 105);
+}
 .show{
     margin-left: 10px;
     font-size: 20px;
@@ -184,6 +181,11 @@ header {
     transition: 0s;
     border-radius: 10px;
 }
+.bo a:hover {
+    color:rgb(107, 105, 105);
+    transition: 0s;
+    border-radius: 10px;
+}
 .bod nav ul li {
     display:inline-block;
     flex-direction: row;
@@ -197,11 +199,7 @@ header {
   font-weight: bold;
   
 }
-.bo a:hover {
-    color:#d86d95;
-    transition: 0s;
-    border-radius: 10px;
-}
+
 
 .sidebar{
     position: fixed;
@@ -222,9 +220,13 @@ header {
 .sidebar li {
     width: 100%;
 
+
 }
 .sidebar a {
     width: 100%;
+   padding: 8px 9px 5px;
+    background-color: #d86d95;
+    border-radius: 20px;
 }
 
 .show{
@@ -421,6 +423,8 @@ header {
     padding: 20px;
     border-radius: 50px;
     background-color: #ff94bc;
+    box-shadow: -10px 0 10px rgb(0,0,0,0.1);
+    
 
 }
 .item h2{
@@ -547,12 +551,12 @@ header {
     align-items: center;
 }
 .iframe{
-    margin: 20px 390px 30px 250px;
+    margin: 20px 453px 50px 90px;
    
-}
+} 
 iframe{
-    width: 1000px;
-    height: 400px;
+    width: 1300px;
+    height: 600px;
 }
 
  
