@@ -24,13 +24,13 @@ function home() {
   window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/index.html";
 }
 function login() {
-  window.location.href="./login 1.html";
+  window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/login%201.html";
 }
 function complains() {
   window.location.href="";
 } 
 function feedback() {
-  window.location.href="./feedback theme1.html";
+  window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/feedback%20theme1.html";
 }
 function theme1() {
   window.location.href="./index.html";
