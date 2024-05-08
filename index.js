@@ -95,38 +95,38 @@ function selectinput(list){
   resultbox.innerHTML='';
 }
 function goButton() {
-  let search = inputBox.value.toLowerCase();
-  if (search.includes('clothes'))
-  {
-    window.location.href = "";
-  } 
-  else if (search.includes('skin care'))
-  {
-    window.location.href = "fatma%20ayman%20theme%201/fatma%20ayman%20.html";
-  }
-  else if (search.includes('shoes'))
-  {
-    window.location.href = "";
-  }
-  else if (search.includes('medical'))
-  {
-    window.location.href = "";
-  }
-  else if (search.includes('super market'))
-  {
-    window.location.href = "";
-  }
-  else if (search.includes('bags'))
-  {
-    window.location.href = "";
-  }
-  else if (search.includes('electronics'))
-  {
-    window.location.href = "";
-  }
-  else if (search.includes('electricity'))
-  {
-    window.location.href = "";
-  }
-  
-};
+    let search = inputBox.value.toLowerCase();
+    if (search.includes('clothes'))
+    {
+      window.location.href = "";
+    } 
+    else if (search.includes('skin care'))
+    {
+      window.location.href = "fatma%20ayman%20theme%201/fatma%20ayman%20.html";
+    }
+    else if (search.includes('shoes'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('medical'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('super market'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('bags'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('electronics'))
+    {
+      window.location.href = "";
+    }
+    else if (search.includes('electricity'))
+    {
+      window.location.href = "";
+    }
+    
+  };
