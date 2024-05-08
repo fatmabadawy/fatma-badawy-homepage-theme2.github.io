@@ -19,7 +19,7 @@ function hide() {
 }
 
 function signup() {
-    window.location.href="form2.html";
+    window.location.href="form.html";
 }
 function home() {
     window.location.href="http://127.0.0.1:5500/theme2/home3.html";
