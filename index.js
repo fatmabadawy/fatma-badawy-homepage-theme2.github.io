@@ -27,7 +27,7 @@ function login() {
   window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/login%201.html";
 }
 function complains() {
-  window.location.href="";
+  window.location.href="table/form.html";
 } 
 function feedback() {
   window.location.href="https://fatmabadawy.github.io/fatma-badawy-homepage.github.io/feedback%20theme1.html";
