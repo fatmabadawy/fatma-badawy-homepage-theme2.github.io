@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     font-family: "Ubuntu", sans-serif;
     padding: 0;
@@ -160,15 +160,16 @@ border-radius: 20px;
 margin-left: -20px;
 }
 
-.category{
+ .category{
     
     padding: 70px;
     margin: 10px 150px;
-}
+} 
 .centre{
     background-color:#ffb7d2 ;
     padding: 100px;
     border-radius: 50px ;
+  
    
 }
 .centre p{
@@ -203,7 +204,29 @@ margin-left: -20px;
     text-transform: capitalize;
     color: white;
 }
+.games{
+  margin:80px 312px 0px;
+}
+.games img {
 
+    height :250px;
+    margin-bottom: 20px;
+}
+.games h3 a{
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: white;
+}
+.games h3 a:hover{
+    color:#E987CC;
+    cursor: pointer;
+}
+.games img:hover{
+    transform: scale( 1.1 , 1.1 );
+    transition: .4s;
+    cursor: pointer;
+}
 .text {
     color: white;
     margin: 100px 100px 50px 20px;
